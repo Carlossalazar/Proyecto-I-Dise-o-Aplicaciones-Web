@@ -7,9 +7,7 @@ h1 {
 	font-size:14px;
 	size:12;
 	text-align: center
-
 }
-
 
 
 div { 
@@ -21,19 +19,11 @@ margin: 0 auto;
 
 }
 
-
-
-div.container {
-    width: 80%;
-    margin: 0 auto; 
-}
-
-
-div.left_menu, div.main_content {
+div.left_menu, div.main_content 
+{
     float: center;
     width: 200px;
     border: 1px solid blue;
-
 }
 
 
@@ -44,4 +34,4 @@ input.required {
 
 label.required {
     cursor: pointer;
-}
+}}

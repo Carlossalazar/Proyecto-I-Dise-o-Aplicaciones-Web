@@ -1,0 +1,46 @@
+<!DOCTYPE html5>
+<html lang="es">
+<head>
+	<title>Area Administrativa</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="cambiarPestanna.js">
+	</script>
+	</head>
+<body>
+	<div class= "user">
+		<h1>Hola: Admin</h1>
+	</div>
+
+	<div class="conenedor">
+		<div class="titulo">
+			<img src="imagen.jpg"alt="imagen perfil" height="130" width="150">
+			<h1>UTN Profiles</h1>
+		</div>
+		<div id= "pestanas">
+			<ul id="lista">
+				<li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Dashboard</a></li>
+                <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Carreras</a></li>
+                <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Estudiantes</a></li>
+                <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>Usuarios</a></li>
+			</ul>
+		<div id="contenidopestanas">
+                <div id="cpestana1">
+					<p>Ultimas Búsquedas Realizadas</p>
+					<HR width=35% align="left">
+				</div>
+				<div id="cpestana2">
+					<p>Listado de Carreras</p>
+					<HR width=35% align="left">
+					<p><b>Código 	   Nombre</b></p>
+					<HR width=70% align="left">
+				</div>
+				<div id="cpestana3">
+				</div>
+                <div id="cpestana4">
+				</div>
+		</div>
+	</div>
+</body>
+</html>
